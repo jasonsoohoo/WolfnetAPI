@@ -9,6 +9,8 @@ namespace WolfnetAPI.Models
 
         public int Number { get; set; }
 
+        public Competition? Competition { get; set; }
+
         public Team? RedOne { get; set; }
 
         public Team? RedTwo { get; set; }

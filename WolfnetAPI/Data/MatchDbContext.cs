@@ -7,7 +7,7 @@ namespace WolfnetAPI.Data
     {
         public MatchDbContext(DbContextOptions<MatchDbContext> options) : base(options)
         {
-
+            // Intentionally Empty
         }
 
         public DbSet<Match> Matches { get; set; }

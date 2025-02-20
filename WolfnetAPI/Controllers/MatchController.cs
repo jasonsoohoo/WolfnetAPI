@@ -54,5 +54,8 @@ namespace WolfnetAPI.Controllers
 
             return Ok(match);
         }
+
+        [HttpDelete("{id}", Name = "DeleteMatch")]
+        public async Task<IAction>
     }
 }
